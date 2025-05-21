@@ -8,6 +8,14 @@ export default function Main() {
       </section>
       <section className="main-content ">
         <div className="container">
+          {/* <div className="col-1-5">
+            <img src="./buy-comics-digital-comics.png"></img>
+            <div>DIGITAL COMICS</div>
+          </div>
+          <div className="col-1-5"></div>
+          <div className="col-1-5"></div>
+          <div className="col-1-5"></div>
+          <div className="col-1-5"></div> */}
           <ul>
             <li>
               <img src="./buy-comics-digital-comics.png"></img>
