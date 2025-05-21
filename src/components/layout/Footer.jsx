@@ -45,7 +45,7 @@ export default function Footer() {
             <h3>DC</h3>
             <ul>
               <li>
-                <a href="">Team Of Use</a>
+                <a href="#">Team Of Use</a>
               </li>
               <li>
                 <a href="">Privacy policy (New)</a>
