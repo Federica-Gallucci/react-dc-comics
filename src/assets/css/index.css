@@ -76,21 +76,28 @@ header {
   padding: 0.5rem 2rem;
   margin: auto;
   border-radius: 10px;
+  text-align: center;
 }
 
-.alert.alert-info {
-  background-color: rgba(0, 0, 255, 0.205);
+.alert.alert-blu {
   color: rgba(0, 0, 255, 0.702);
 }
 
-.alert.alert-danger {
+.alert.alert-bg-blu {
+  background-color: rgba(0, 0, 255, 0.205);
+}
+
+.alert.alert-red {
   background-color: rgba(255, 0, 0, 0.205);
   color: rgba(255, 0, 0, 0.709);
 }
 
-.alert.alert-success {
-  background-color: rgba(0, 128, 0, 0.205);
+.alert.alert-green {
   color: rgba(0, 128, 0, 0.729);
+}
+
+.alert.alert-bg-green {
+  background-color: rgba(0, 128, 0, 0.205);
 }
 
 ul.discs {

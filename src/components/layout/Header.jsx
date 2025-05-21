@@ -5,12 +5,8 @@ export default function Header() {
     <header>
       <section class="header-top">
         <div className="container">
-          <Alert type="danger">
-            Errori:
-            <ul className="discs">
-              <li>errore1: errore testo</li>
-              <li>errore2: errore testo</li>
-            </ul>
+          <Alert textColor="green" bgColor="bg-green">
+            Testo
           </Alert>
         </div>
       </section>
