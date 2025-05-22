@@ -8,9 +8,7 @@ export default function Footer() {
               <h3>DC COMICS</h3>
               <ul>
                 <li>
-                  <a href="#">
-                    Characters<a href="#"></a>
-                  </a>
+                  <a href="#">Characters</a>
                 </li>
                 <li>
                   <a href="#">Comics</a>
@@ -77,7 +75,7 @@ export default function Footer() {
             <h3>SITES</h3>
             <ul>
               <li>
-                <a HREF="#">DC</a>
+                <a href="#">DC</a>
               </li>
               <li>
                 <a href="#">MAD Magazine</a>
@@ -102,19 +100,19 @@ export default function Footer() {
           <ul>
             <li className="follow-us">FOLLOW US</li>
             <li>
-              <img src="/footer-facebook.png"></img>
+              <img src="./img/footer-facebook.png"></img>
             </li>
             <li>
-              <img src="/footer-youtube.png"></img>
+              <img src="./img/footer-youtube.png"></img>
             </li>
             <li>
-              <img src="/footer-twitter.png"></img>
+              <img src="./img/footer-twitter.png"></img>
             </li>
             <li>
-              <img src="/footer-pinterest.png"></img>
+              <img src="./img/footer-pinterest.png"></img>
             </li>
             <li>
-              <img src="/footer-periscope.png"></img>
+              <img src="./img/footer-periscope.png"></img>
             </li>
           </ul>
         </div>

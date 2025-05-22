@@ -1,15 +1,7 @@
-export default function Alert({ textColor, bgColor, children }) {
+export default function Alert({ type, children }) {
   if (!children)
     return (
-      <div className={`alert alert-red alert-bg-red`}>
-        Si è verificato un errore!
-      </div>
+      <div className={`alert alert-danger`}>Si è verificato un errore!</div>
     );
-  return (
-    <div
-      className={`alert alert-${textColor || "red"} alert-${bgColor || "red"} `}
-    >
-      {children}
-    </div>
-  );
+  return <div className={`alert alert-${type || "danger"}`}>{children}</div>;
 }

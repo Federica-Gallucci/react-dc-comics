@@ -3,16 +3,14 @@ import Alert from "../ui/Alert";
 export default function Header() {
   return (
     <header>
-      <section class="header-top">
+      <div className="header-top">
         <div className="container">
-          <Alert textColor="green" bgColor="bg-green">
-            Testo
-          </Alert>
+          <Alert type="info">Testo</Alert>
         </div>
-      </section>
+      </div>
       <section id="page-header">
         <div className="container">
-          <img src="/dc-logo.png" alt="logo dc"></img>
+          <img src="./img/dc-logo.png" alt="logo dc"></img>
           <ul>
             <li>
               <a href="#">CARACTERS</a>
